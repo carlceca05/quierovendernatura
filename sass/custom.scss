@@ -1,0 +1,96 @@
+/* nuevos */
+.fondo{
+	background-image:  url("../imagenes/quierovendernatura2.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fondito{
+	background-color: rgba(255,255,255,0.7);
+}
+.alto{
+	height: 60vh;
+}
+.appwhatsapp{
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  width: 60px;
+  z-index: 1000;
+}
+.parallax{
+	background-image: url("../imagenes/vender_natura_banner_2.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+.parallax2{
+	background-image: url("../imagenes/fondo2.png"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+/* menu   */
+.arribamenu{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0px;
+	padding-right: 50px;
+	height: 45px;
+	padding-top: 12px;
+}
+.arribamenu li{
+	list-style: none;
+	/*text-align: center;*/
+	/*background-color: #ff4949;*/
+	width: 100%;
+	
+}
+.arribamenu a{
+	text-align: center;
+	text-decoration: none;
+	color: #7f7f7f;
+}
+.arribamenu a:hover,a:active{
+	color: rgba(0,0,0,.9);
+}
+.redes{
+	/*display: flex;*/
+	justify-content: space-between;
+}
+.revista{
+	position: absolute;
+	left: 70%;
+	top: 15px;
+}
+@media only screen and (min-width:900px) and (max-width:2000px){
+ 	.desaparecedor {
+ 	display: none;
+	}
+	.menusss{
+		display: none;
+	}
+
+}
+@media only screen and (min-width:100px) and (max-width:900px){
+ 	.desaparesidos {
+ 	display: none;
+	}
+	.fondo {
+		background-image: url("../imagenes/vender_natura_banner_movil.webp");
+   }
+   .arribamenu {
+	   display: none;
+   }
+}
+
+
+
+$font-family-sans-serif: 'Poppins', sans-serif;  
+
+$primary: #ffd100;
+$secondary: #f0f0f0;
+$success: #cccccc;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
