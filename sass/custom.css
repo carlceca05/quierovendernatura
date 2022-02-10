@@ -1,4 +1,8 @@
 /* nuevos */
+.otroalto {
+  height: 90vh;
+}
+
 .fondo {
   background-image: url("../imagenes/quierovendernatura.jpg");
   background-size: cover;
@@ -81,6 +85,10 @@
   top: 15px;
 }
 
+.otromasalto {
+  height: 70vh;
+}
+
 @media only screen and (min-width: 900px) and (max-width: 2000px) {
   .desaparecedor {
     display: none;
@@ -95,10 +103,19 @@
     display: none;
   }
   .fondo {
-    background-image: url("../imagenes/vender_natura_banner_movil.webp");
+    background-image: url(../imagenes/quierovendernatura-movil.png);
   }
   .arribamenu {
     display: none;
+  }
+  .otroalto {
+    height: auto;
+  }
+  .alto {
+    height: auto;
+  }
+  .otromasalto {
+    height: auto;
   }
 }
 
